@@ -3,7 +3,7 @@
 
 ## Write a short comment describing this function
 
-makeVector <- function(x = numeric()) {
+
         m <- NULL
         set <- function(y) {
                 x <<- y
@@ -19,7 +19,7 @@ makeVector <- function(x = numeric()) {
 
 ## Write a short comment describing this function
 
-cachemean <- function(x, ...) {
+
         m <- x$getmean()
         if(!is.null(m)) {
                 message("getting cached data")
